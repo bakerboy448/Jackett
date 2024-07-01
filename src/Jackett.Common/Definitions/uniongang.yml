@@ -6,9 +6,10 @@ language: ru-RU
 type: private
 encoding: UTF-8
 links:
-  - https://www.uniongang.net/
+  - https://uniongang.net/
 legacylinks:
   - http://www.uniongang.net/
+  - https://www.uniongang.net/
 
 caps:
   categorymappings:
@@ -170,10 +171,10 @@ search:
       selector: a[href^="details.php?id="]
       attribute: href
     download:
-      selector: a[href^="download.php?id="]
+      selector: a[href^="download.php?id="], a[href^="magnet:?xt="]
       attribute: href
     size:
-      selector: a[href^="download.php?id="]
+      selector: a[href^="download.php?id="], a[href^="magnet:?xt="]
     seeders:
       selector: td:nth-last-child(3)
       filters:

@@ -19,9 +19,9 @@ Developer note: The software implements the [Torznab](https://torznab.github.io/
 A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](https://github.com/webtor-io/go-jackett)
 
 #### Supported Systems
-* Windows 7 SP1 or greater
-* Linux [supported operating systems here](https://github.com/dotnet/core/blob/main/release-notes/6.0/supported-os.md#linux)
-* macOS 10.15+ or greater
+* Windows 10 Version 1607+ or greater [supported operating systems here](https://github.com/dotnet/core/blob/main/release-notes/8.0/supported-os.md#windows)
+* Linux [supported operating systems here](https://github.com/dotnet/core/blob/main/release-notes/8.0/supported-os.md#linux)
+* macOS 12.0+ (Monterey) or greater [supported operating systems here](https://github.com/dotnet/core/blob/main/release-notes/8.0/supported-os.md#macos)
 
 <details> <summary> <b> Supported Public Trackers </b> </summary>
 
@@ -50,7 +50,6 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * cpasbien
  * cpasbienClone
  * CrackingPatching
- * Demonoid
  * DivxTotal
  * dmhy
  * DonTorrent
@@ -92,6 +91,8 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * NoNaMe Club (NNM-Club)
  * Nyaa.si
  * OneJAV
+ * OxTorrent
+ * OxTorrent-vip
  * ParnuXi
  * PC-torrent
  * PornoTorrent
@@ -114,16 +115,15 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * TheRARBG
  * Tokyo Tosho
  * Torlock
- * Torrent[CORE]
+ * Torrent Downloads
  * Torrent Oyun indir
+ * Torrent[CORE]
  * torrent.by
  * torrent-pirat
  * Torrent9
- * Torrent9 clone
- * Torrent911
+ * Torrent9-tel
  * TorrentFunk
- * TorrentDownloads
- * TorrentGalaxy (TGx)
+ * TorrentDownload
  * TorrentKitty
  * TorrentProject2
  * TorrentQQ (토렌트큐큐)
@@ -207,15 +207,13 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * SkTorrent
  * SkTorrent-org
  * themixingbowl (TMB)
- * Toloka.to
+ * Toloka
  * TorrentMasters
  * Torrents-Local
- * TorrentDownload
  * TribalMixes
  * Union Fansub
  * UniOtaku
  * xTorrenty
- * YggTorrent (YGG)
  * ZOMB
  * Ztracker
 </details>
@@ -225,10 +223,9 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * 0day.kiev
  * 1ptbar
  * 2 Fast 4 You [![(invite needed)][inviteneeded]](#)
- * 2xFree
  * 3ChangTrai (3CT)
  * 3D Torrents (3DT)
- * 4thD (4th Dimension)
+ * 4thD (4th Dimension) [![(invite needed)][inviteneeded]](#)
  * 52PT
  * 720pier
  * Abnormal
@@ -257,30 +254,29 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * AvistaZ (AsiaTorrents)
  * Azusa (梓喵) [![(invite needed)][inviteneeded]](#)
  * Back-ups
- * BakaBT
- * BeiTai (备胎)
+ * BakaBT [![(invite needed)][inviteneeded]](#)
  * Beload
  * Best-Core
  * BeyondHD (BHD)
- * Bibliotik
+ * Bibliotik [![(invite needed)][inviteneeded]](#)
  * Bit-Bázis
  * BIT-HDTV
  * Bitded
  * Bithorlo (BHO)
  * BitHUmen [![(invite needed)][inviteneeded]](#)
+ * Bitpalace
  * BitPorn
  * Bitspyder
  * BitTorrentFiles
  * BiTTuRK
- * BJ-Share (BJ)
+ * BJ-Share (BJ) [![(invite needed)][inviteneeded]](#)
  * BlueBird
  * Blutopia (BLU)
  * Borgzelle [![(invite needed)][inviteneeded]](#)
  * Boxing Torrents
  * Brasil Tracker
- * BroadcasTheNet (BTN)
+ * BroadcasTheNet (BTN) [![(invite needed)][inviteneeded]](#)
  * BrokenStones [![(invite needed)][inviteneeded]](#)
- * BrSociety
  * BTArg
  * BTNext (BTNT) [![(invite needed)][inviteneeded]](#)
  * BTSCHOOL
@@ -291,6 +287,7 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * Carpathians
  * CarPT
  * Cathode-Ray.Tube (CRT)
+ * CD File
  * Central Torrent
  * CeskeForum
  * CGPeers [![(invite needed)][inviteneeded]](#)
@@ -307,6 +304,7 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * CrabPT (蟹黄堡)
  * CrazySpirits
  * CrnaBerza
+ * cyanbug (大青虫)
  * Dajiao (打胶) [![(invite needed)][inviteneeded]](#)
  * DANISH BYTES
  * Darius Tracker
@@ -315,15 +313,15 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * DataScene (DS)
  * DesiTorrents
  * Diablo Torrent
- * DICMusic
+ * DICMusic [![(invite needed)][inviteneeded]](#)
  * DigitalCore
  * DimeADozen (EzTorrent)
- * DiscFan
+ * DiscFan [![(invite needed)][inviteneeded]](#)
  * DivTeam
  * DocsPedia
  * Dream Tracker [![(invite needed)][inviteneeded]](#)
  * Drugari
- * Ebooks-Shares
+ * Ebooks-Shares [![(invite needed)][inviteneeded]](#)
  * Empornium (EMP) [![(invite needed)][inviteneeded]](#)
  * Enthralled
  * eShareNet
@@ -331,27 +329,27 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * Exitorrent.org [![(invite needed)][inviteneeded]](#)
  * ExoticaZ (YourExotic)
  * ExtremeBits
- * Falkon Vision Team
+ * F1Carreras
  * FANO.IN [![(invite needed)][inviteneeded]](#)
  * Fantastiko [![(invite needed)][inviteneeded]](#)
  * Fappaizuri
  * FearNoPeer
  * Femdomcult
+ * File-Shack
  * FileList (FL)
- * FinElite (FE) [![(invite needed)][inviteneeded]](#)
+ * FinElite (FE)
  * FinVip
  * Flux-Zone
  * Free Farm (自由农场)
  * FSM
  * FunFile (FF)
  * FunkyTorrents (FT)
- * FutureTorrent [![(invite needed)][inviteneeded]](#)
+ * FutureTorrent
  * Fuzer (FZ)
- * Gamera (駕瞑羅)
  * Gay-Torrents.org
  * GAYtorrent.ru
  * GazelleGames (GGn)
- * Generation-Free [![(invite needed)][inviteneeded]](#)
+ * Generation-Free
  * GigaTorrents
  * GimmePeers (formerly ILT)
  * GiroTorrent
@@ -363,12 +361,13 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * HappyFappy
  * Hares Club (白兔俱乐部) [![(invite needed)][inviteneeded]](#)
  * Hawke-uno
- * HD-Club
- * HD-Forever (HDF)
- * HD-Olimpo
+ * HD Dolby
+ * HD-Club [![(invite needed)][inviteneeded]](#)
+ * HD-Forever (HDF) [![(invite needed)][inviteneeded]](#)
+ * HD-Olimpo [![(invite needed)][inviteneeded]](#)
  * HD-Only (HDO)
  * HD-Space (HDS)
- * HD-Torrents (HDT)
+ * HD-Torrents (HDT) [![(invite needed)][inviteneeded]](#)
  * HD-UNiT3D
  * HD4FANS [![(invite needed)][inviteneeded]](#)
  * HDArea (HDA)
@@ -378,6 +377,7 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * HDFans
  * HDFun (HDZone)
  * HDHome (HDBigger) [![(invite needed)][inviteneeded]](#)
+ * HDKylin (麒麟)
  * HDMaYi (小蚂蚁PT站)
  * HDPT (明教) [![(invite needed)][inviteneeded]](#)
  * HDRoute [![(invite needed)][inviteneeded]](#)
@@ -389,12 +389,13 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * HDU
  * hdvbits
  * HDVIDEO
- * Heavens-Hell
  * Hebits
  * HellasHut
  * HHanClub
+ * HomePornTorrents (HPT)
  * House of Devil
  * HQMusic
+ * HUDBT (蝴蝶) [![(invite needed)][inviteneeded]](#)
  * iAnon
  * ICC2022 (冰淇淋)
  * ilolicon PT
@@ -411,23 +412,23 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * JPopsuki
  * JPTV
  * KamePT [![(invite needed)][inviteneeded]](#)
- * Karagarga
+ * Karagarga [![(invite needed)][inviteneeded]](#)
  * Keep Friends [![(invite needed)][inviteneeded]](#)
  * Kelu
  * KIMOJI
- * Korsar
+ * Korsar [![(invite needed)][inviteneeded]](#)
  * KrazyZone
  * Kufei (库非)
  * Kufirc
  * Last Digital Underground (LDU)
  * LastFiles
- * Le Saloon
  * LaidBackManor
- * Lat-Team [![(invite needed)][inviteneeded]](#)
+ * Lat-Team
+ * Le Saloon [![(invite needed)][inviteneeded]](#)
  * Le-Cinephile
  * LearnBits
  * LearnFlakes
- * leech24
+ * Leech24
  * Les-Cinephiles
  * Lesbians4u
  * Libble
@@ -437,13 +438,13 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * Locadora
  * LosslessClub [![(invite needed)][inviteneeded]](#)
  * LST
- * M-Team TP (MTTP)
+ * M-Team TP (MTTP) [![(invite needed)][inviteneeded]](#)
  * MaDs Revolution
  * Majomparádé (TurkDepo)
  * Making Off
  * Mansão dos Animes (MDAN)
+ * Malayabits
  * MegamixTracker
- * Mendigos da WEB
  * MeseVilág (Fairytale World)
  * MetalGuru [![(invite needed)][inviteneeded]](#)
  * Milkie
@@ -451,12 +452,11 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * MNV (Max-New-Vision)
  * MOJBLiNK
  * MonikaDesign (MDU)
- * MoreThanTV (MTV)
+ * MoreThanTV (MTV) [![(invite needed)][inviteneeded]](#)
  * MouseBits
- * Movie-Torrentz
  * MyAnonamouse (MAM)
  * MySpleen [![(invite needed)][inviteneeded]](#)
- * NCore
+ * NCore [![(invite needed)][inviteneeded]](#)
  * Nebulance (NBL) (TransmiTheNet)
  * NicePT
  * NorBits
@@ -467,14 +467,14 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * Old Toons World
  * OpenCD [![(invite needed)][inviteneeded]](#)
  * Orpheus
- * OnlyEncodes
+ * OnlyEncodes+
  * OshenPT
  * Ostwiki
  * OurBits (HDPter)
  * P2PBG
  * Panda
  * Party-Tracker
- * PassThePopcorn (PTP)
+ * PassThePopcorn (PTP) [![(invite needed)][inviteneeded]](#)
  * Peeratiko
  * Peers.FM
  * PigNetwork (猪猪网)
@@ -482,8 +482,7 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * PiXELHD (PxHD) [![(invite needed)][inviteneeded]](#)
  * Plusteca
  * Polish Torrent (PTT)
- * PolishSource (PS)
- * PolishTracker
+ * PolishTracker [![(invite needed)][inviteneeded]](#)
  * Pornbay [![(invite needed)][inviteneeded]](#)
  * Portugas
  * PotUK
@@ -497,27 +496,26 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * PTerClub (PT之友俱乐部)
  * PTFiles (PTF)
  * PThome [![(invite needed)][inviteneeded]](#)
- * PTLSP
- * PTSBAO (烧包)
+ * PTSBAO (烧包) [![(invite needed)][inviteneeded]](#)
  * PTtime
+ * PTVicomo
  * Punk's Horror Tracker
- * PuntoTorrent
+ * PuntoTorrent [![(invite needed)][inviteneeded]](#)
  * PuTao (葡萄)
  * PWTorrents (PWT)
  * Qingwa (青蛙)
- * R3V WTF!
+ * R3V WTF! [![(invite needed)][inviteneeded]](#)
  * Racing4Everyone (R4E)
  * RacingForMe (RFM)
  * RareShare2
+ * Red Leaves (红叶) [![(invite needed)][inviteneeded]](#)
  * Red Star Torrent (RST) [![(invite needed)][inviteneeded]](#)
  * Redacted (PassTheHeadphones)
  * RedBits
- * Red Leaves (红叶) [![(invite needed)][inviteneeded]](#)
  * ReelFlix
  * Resurrect The Net [![(invite needed)][inviteneeded]](#)
  * RetroFlix
- * RevolutionTT
- * RM-HD
+ * RevolutionTT [![(invite needed)][inviteneeded]](#)
  * RocketHD
  * Romanian Metal Torrents (RMT)
  * RoTorrent
@@ -530,9 +528,9 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * SceneTime
  * Secret Cinema
  * SeedFile
+ * SFP (Share Friends Projekt)
  * Shadowflow (影) [![(invite needed)][inviteneeded]](#)
  * Shareisland
- * SharkPT
  * Shazbat
  * SiamBIT
  * SkipTheCommercials
@@ -573,13 +571,13 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * TheEmpire (TE)
  * TheLeachZone (TLZ)
  * TheScenePlace (TSP)
- * Thor's Land
  * TJUPT (北洋园PT)
  * TLFBits [![(invite needed)][inviteneeded]](#)
- * TmGHuB
+ * TmGHuB [![(invite needed)][inviteneeded]](#)
  * Toca Share
  * Tormac
  * Tornado
+ * Torrent Heaven (Dutch)
  * Torrent Network (TN)
  * Torrent Sector Crew (TSC)
  * Torrent Trader [![(invite needed)][inviteneeded]](#)
@@ -588,37 +586,37 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * TOrrent-tuRK (TORK)
  * Torrent.LT
  * TorrentBD
- * TorrentBytes (TBy)
+ * TorrentBytes (TBy) [![(invite needed)][inviteneeded]](#)
  * TorrentCCF (TCCF)
  * TorrentDay (TD)
  * TorrentDD
  * Torrenteros (TTR)
  * TorrentHeaven (German) [![(invite needed)][inviteneeded]](#)
- * Torrent Heaven (Dutch)
  * TorrentHR [![(invite needed)][inviteneeded]](#)
  * Torrenting (TT)
  * Torrentland
  * TorrentLeech (TL)
  * TorrentLeech.pl
  * TorrentSeeds (TS)
+ * ToSky
  * ToTheGlory (TTG) [![(invite needed)][inviteneeded]](#)
  * TrackerMK
  * TranceTraffic
  * Trellas (Magico) [![(invite needed)][inviteneeded]](#)
- * TreZzoR [![(invite needed)][inviteneeded]](#)
+ * TreZzoR
+ * TurkSeed
  * TurkTorrent (TT)
  * TV Chaos UK (TVCUK)
- * TvRoad
  * TVstore
  * U2 (U2分享園@動漫花園) [![(invite needed)][inviteneeded]](#)
  * UBits
  * UHDBits
  * UltraHD
  * UnionGang
- * Universal-Torrents
  * UnlimitZ
  * upload.cx
  * UTOPIA
+ * ViSiON HD
  * WDT (Wrestling Desires Torrents / Ultimate Wrestling Torrents)
  * White Angel
  * WinterSakura
@@ -626,21 +624,22 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * World-of-Tomorrow
  * Wukong (悟空问道)
  * x-ite.me (XM)
- * xBytesV2
  * Xider-Torrent
  * XSpeeds (XS)
- * Xthor
+ * Xthor [![(invite needed)][inviteneeded]](#)
  * XtremeBytes
  * XWT-Classics
  * XWTorrents (XWT)
  * YDYPT (伊甸园PT)
+ * YggTorrent (YGG)
+ * YOiNKED
  * Zamunda.net
  * Zelka.org
  * ZmPT (织梦)
- * ZonaQ
+ * ZonaQ [![(invite needed)][inviteneeded]](#)
 </details>
 
-Trackers marked with [![(invite needed)][inviteneeded]](#) have no active maintainer and may be missing features or be broken. If you have an invite for them please send it to garfieldsixtynine -at- gmail.com or jacketttest -at- gmail.com to get them fixed/improved.
+Trackers marked with [![(invite needed)][inviteneeded]](#) have no active maintainer and may be broken or missing features. If you have an invite please send it to jacketttest [at] gmail [dot] com or garfieldsixtynine [at] gmail [dot] com get them fixed/improved.
 
 ### Jackett Torznab query syntax
 
@@ -689,7 +688,7 @@ Supported filters
 Filter | Condition
 -|-
 `type:<type>` | where the indexer type is equal to `<type>`
-`tag:<tag>` | where the indexer tags contains `<tag>`
+`tag:<tag>` | where the indexer tags contain `<tag>`
 `lang:<tag>` | where the indexer language start with `<lang>`
 `test:{passed\|failed}` | where the last indexer test performed `passed` or `failed`
 `status:{healthy\|failing\|unknown}` | where the indexer state is `healthy` (successfully operates in the last minutes), `failing` (generates errors in the recent call) or `unknown` (unused for a while)
@@ -712,7 +711,7 @@ The "filter" indexer at `/api/v2.0/indexers/!status:failing,test:passed` will qu
 A special "all" indexer is available at `/api/v2.0/indexers/all/results/torznab`.
 It will query all configured indexers and return the combined results.
 
-If your client supports multiple feeds it's recommended to add each indexer directly instead of using the all indexer.
+If your client supports multiple feeds it's recommended to add each indexer directly instead of using the "all" indexer.
 Using the "all" indexer has no advantages (besides reduced management overhead), the only disadvantages:
 * you lose control over indexer specific settings (categories, search modes, etc.)
 * mixing search modes (IMDB, query, etc.) might cause low-quality results
@@ -727,7 +726,7 @@ We recommend you install Jackett as a Windows service using the supplied install
 
 To get started with using the installer for Jackett, follow the steps below:
 
-1. Check if you need any .NET prerequisites installed, see https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net60#dependencies
+1. Check if you need any .NET prerequisites installed, see https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net80#dependencies
 2. Download the latest version of the Windows installer, "Jackett.Installer.Windows.exe" from the [releases](https://github.com/Jackett/Jackett/releases/latest) page.
 3. When prompted if you would like this app to make changes to your computer, select "yes".
 4. If you would like to install Jackett as a Windows Service, make sure the "Install as Windows Service" checkbox is filled.
@@ -740,35 +739,35 @@ When installed as a service the tray icon acts as a way to open/start/stop Jacke
 Jackett can also be run from the command line if you would like to see log messages (Ensure the server isn't already running from the tray/service). This can be done by using "JackettConsole.exe" (for Command Prompt), found in the Jackett data folder: "%ProgramData%\Jackett".
 
 
-## Install on Linux (AMDx64)
+## Installation on Linux (AMDx64)
 On most operating systems all the required dependencies will already be present. In case they are not, you can refer to this page https://github.com/dotnet/core/blob/master/Documentation/linux-prereqs.md
 
 ### Install as service
 A) Command to download and install the latest package and run the Jackett service:
 
-`cd /opt && f=Jackett.Binaries.LinuxAMDx64.tar.gz && release=$(wget -q https://github.com/Jackett/Jackett/releases/latest -O - | grep "title>Release" | cut -d " " -f 4) && sudo wget -Nc https://github.com/Jackett/Jackett/releases/download/$release/"$f" && sudo tar -xzf "$f" && sudo rm -f "$f" && cd Jackett* && sudo ./install_service_systemd.sh && systemctl status jackett.service && cd - && echo -e "\nVisit http://127.0.0.1:9117"`
+`cd /opt && f=Jackett.Binaries.LinuxAMDx64.tar.gz && sudo wget -Nc https://github.com/Jackett/Jackett/releases/latest/download/"$f" && sudo tar -xzf "$f" && sudo rm -f "$f" && cd Jackett* && sudo ./install_service_systemd.sh && systemctl status jackett.service && cd - && echo -e "\nVisit http://127.0.0.1:9117"`
 
 B) Or manually:
 
-1. Download and extract the latest `Jackett.Binaries.LinuxAMDx64.tar.gz` release from the [releases page](https://github.com/Jackett/Jackett/releases)
+1. Download and extract the latest `Jackett.Binaries.LinuxAMDx64.tar.gz` release from the [releases](https://github.com/Jackett/Jackett/releases/latest) page
 2. To install Jackett as a service, open a Terminal, cd to the jackett folder, and run `sudo ./install_service_systemd.sh` You need root permissions to install the service. The service will start on each logon. You can always stop it by running `systemctl stop jackett.service` from Terminal. You can start it again using `systemctl start jackett.service`. Logs are stored as usual under `~/.config/Jackett/log.txt` and also in `journalctl -u jackett.service`.
 
 ### Run without installing as a service
-Download and extract the latest `Jackett.Binaries.LinuxAMDx64.tar.gz` release from the [releases page](https://github.com/Jackett/Jackett/releases), open a Terminal, cd to the jackett folder, and run Jackett with the command `./jackett`
+Download and extract the latest `Jackett.Binaries.LinuxAMDx64.tar.gz` release from the [releases](https://github.com/Jackett/Jackett/releases/latest) page, open a Terminal, cd to the jackett folder, and run Jackett with the command `./jackett`
 
 ### home directory
 If you want to run it with a user without a /home directory you need to add `Environment=XDG_CONFIG_HOME=/path/to/folder` to your systemd file, this folder will be used to store your config files.
 
 
-## Install on Linux (ARMv7 or above)
+## Installation on Linux (ARMv7 or above)
 On most operating systems all the required dependencies will already be present. In case they are not, you can refer to this page https://github.com/dotnet/core/blob/master/Documentation/linux-prereqs.md
 
 ### Install as service
-1. Download and extract the latest `Jackett.Binaries.LinuxARM32.tar.gz` or `Jackett.Binaries.LinuxARM64.tar.gz` (32 bit is the most common on ARM) release from the [releases page](https://github.com/Jackett/Jackett/releases)
+1. Download and extract the latest `Jackett.Binaries.LinuxARM32.tar.gz` or `Jackett.Binaries.LinuxARM64.tar.gz` (32 bit is the most common on ARM) release from the [releases](https://github.com/Jackett/Jackett/releases/latest) page
 2. To install Jackett as a service, open a Terminal, cd to the jackett folder, and run `sudo ./install_service_systemd.sh` You need root permissions to install the service. The service will start on each logon. You can always stop it by running `systemctl stop jackett.service` from Terminal. You can start it again using `systemctl start jackett.service`. Logs are stored as usual under `~/.config/Jackett/log.txt` and also in `journalctl -u jackett.service`.
 
 ### Run without installing as a service
-Download and extract the latest `Jackett.Binaries.LinuxARM32.tar.gz` or `Jackett.Binaries.LinuxARM64.tar.gz` (32 bit is the most common on ARM) release from the [releases page](https://github.com/Jackett/Jackett/releases), open a Terminal, cd to the jackett folder and run Jackett with the command `./jackett`
+Download and extract the latest `Jackett.Binaries.LinuxARM32.tar.gz` or `Jackett.Binaries.LinuxARM64.tar.gz` (32 bit is the most common on ARM) release from the [releases](https://github.com/Jackett/Jackett/releases/latest) page, open a Terminal, cd to the jackett folder and run Jackett with the command `./jackett`
 
 ### home directory
 If you want to run it with a user without a /home directory you need to add `Environment=XDG_CONFIG_HOME=/path/to/folder` to your systemd file, this folder will be used to store your config files.
@@ -782,7 +781,7 @@ If you want to run it with a user without a /home directory you need to add `Env
        * Debian/Ubuntu: `apt-get install libcurl4-openssl-dev`
        * Redhat/Fedora: `yum install libcurl-devel`
        * For other distros see the  [Curl docs](http://curl.haxx.se/dlwiz/?type=devel).
- 3. Download and extract the latest `Jackett.Binaries.Mono.tar.gz` release from the [releases page](https://github.com/Jackett/Jackett/releases) and run Jackett using mono with the command `mono --debug JackettConsole.exe`.
+ 3. Download and extract the latest `Jackett.Binaries.Mono.tar.gz` release from the [releases](https://github.com/Jackett/Jackett/releases/latest) page and run Jackett using mono with the command `mono --debug JackettConsole.exe`.
  4. (Optional) To install Jackett as a service, open the Terminal and run `sudo ./install_service_systemd_mono.sh` You need root permissions to install the service. The service will start on each logon. You can always stop it by running `systemctl stop jackett.service` from Terminal. You can start it again it using `systemctl start jackett.service`. Logs are stored as usual under `~/.config/Jackett/log.txt` and also in `journalctl -u jackett.service`.
 
 If you want to run it with a user without a /home directory you need to add `Environment=XDG_CONFIG_HOME=/path/to/folder` to your systemd file, this folder will be used to store your config files.
@@ -797,18 +796,17 @@ On a CentOS/RedHat 7 system: [jewflix.jackett](https://galaxy.ansible.com/jewfli
 On an Ubuntu 16 system: [chrisjohnson00.jackett](https://galaxy.ansible.com/chrisjohnson00/jackett)
 
 
-### Installation on Linux or macOS via Homebrew
-
-[Homebrew Formulae - Jackett](https://formulae.brew.sh/formula/jackett)
+## Uninstallation on Linux
+`wget https://raw.githubusercontent.com/Jackett/Jackett/master/uninstall_service_systemd.sh --quiet -O -|sudo bash`
 
 
 ## Installation on macOS
 
 ### Prerequisites
-macOS 10.15+ or greater
+macOS 12.0+ (Monterey) or greater
 
 ### Install as service
-1. Download and extract the latest `Jackett.Binaries.macOS.tar.gz` or `Jackett.Binaries.macOSARM64.tar.gz` release from the [releases page](https://github.com/Jackett/Jackett/releases).
+1. Download and extract the latest `Jackett.Binaries.macOS.tar.gz` or `Jackett.Binaries.macOSARM64.tar.gz` release from the [releases](https://github.com/Jackett/Jackett/releases/latest) page.
 2. Open the extracted folder and double-click on `install_service_macos`.
 3. If the installation was a success, you can close the Terminal window.
 
@@ -816,7 +814,16 @@ The service will start on each logon. You can always stop it by running `launchc
 Logs are stored as usual under `~/.config/Jackett/log.txt`.
 
 ### Run without installing as a service
-Download and extract the latest `Jackett.Binaries.macOS.tar.gz` or `Jackett.Binaries.macOSARM64.tar.gz` release from the [releases page](https://github.com/Jackett/Jackett/releases) and run Jackett with the command `./jackett`.
+Download and extract the latest `Jackett.Binaries.macOS.tar.gz` or `Jackett.Binaries.macOSARM64.tar.gz` release from the [releases](https://github.com/Jackett/Jackett/releases/latest) page and run Jackett with the command `./jackett`.
+
+
+## Uninstallation on macOS
+`curl -sSL https://raw.githubusercontent.com/Jackett/Jackett/master/uninstall_jackett_macos| bash`
+
+
+## Installation on Linux or macOS via Homebrew
+
+[Homebrew Formulae - Jackett](https://formulae.brew.sh/formula/jackett)
 
 
 ## Installation using Docker
@@ -873,7 +880,7 @@ If you have enabled the Jackett internal cache, but have an indexer for which yo
 ## Configuring FlareSolverr
 Some indexers are protected by Cloudflare or similar services and Jackett is not able to solve the challenges.
 For these cases, [FlareSolverr](https://github.com/FlareSolverr/FlareSolverr) has been integrated into Jackett. This service is in charge of solving the challenges and configuring Jackett with the necessary cookies.
-Setting up this service is optional, most indexers don't need it.
+Setting up this service is optional; most indexers don't need it.
 * Install FlareSolverr service (following their instructions)
 * Configure **FlareSolverr API URL** in Jackett. For example: http://172.17.0.2:8191
 * It is recommended to keep the default value in **FlareSolverr Max Timeout (ms)**
@@ -942,21 +949,21 @@ git clone https://github.com/Jackett/Jackett.git
 cd Jackett/src
 
 # dotnet core version
-dotnet publish Jackett.Server -f net6.0 --self-contained -r osx-x64 -c Debug # takes care of everything
-./Jackett.Server/bin/Debug/net6.0/osx-x64/jackett # run jackett
+dotnet publish Jackett.Server -f net8.0 --self-contained -r osx-x64 -c Debug # takes care of everything
+./Jackett.Server/bin/Debug/net8.0/osx-x64/jackett # run jackett
 ```
 
 ### Linux
 
 
 ```bash
-sudo apt install nuget msbuild dotnet-sdk-6.0 # install build tools (Debian/ubuntu)
+sudo apt install nuget msbuild dotnet-sdk-8.0 # install build tools (Debian/ubuntu)
 git clone https://github.com/Jackett/Jackett.git
 cd Jackett/src
 
 # dotnet core version
-dotnet publish Jackett.Server -f net6.0 --self-contained -r linux-x64 -c Debug # takes care of everything
-./Jackett.Server/bin/Debug/net6.0/linux-x64/jackett # run jackett
+dotnet publish Jackett.Server -f net8.0 --self-contained -r linux-x64 -c Debug # takes care of everything
+./Jackett.Server/bin/Debug/net8.0/linux-x64/jackett # run jackett
 ```
 
 ## Screenshots

@@ -9,6 +9,13 @@
                 "id": {
                     "type": "string"
                 },
+                "replaces": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                        "type": "string"
+                    }
+                },
                 "name": {
                     "type": "string"
                 },
@@ -222,7 +229,7 @@
                 },
                 "type":{
                     "type": "string",
-                    "enum": ["info", "text", "password", "checkbox", "select"]
+                    "enum": ["info", "text", "password", "checkbox", "select", "info_category_8000", "info_cookie", "info_flaresolverr", "info_useragent"]
                 },
                 "default": {
                     "oneOf": [
@@ -254,7 +261,6 @@
                 }
             },
             "required": [
-                "label",
                 "name",
                 "type"
             ],

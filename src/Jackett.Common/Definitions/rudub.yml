@@ -1,5 +1,7 @@
 ---
 id: rudub
+replaces:
+  - baibako
 name: RUDUB
 description: "RUDUB (ex-BaibaKoTV) is a RUSSIAN Semi-Private Torrent Tracker for TV"
 language: ru-RU
@@ -7,33 +9,38 @@ type: semi-private
 encoding: windows-1251
 followredirect: true
 links:
-  - https://18april.rudub.online/
+  - https://02july.rudub.online/
 legacylinks:
-  - http://baibako.tv/
-  - https://baibako.tv/
-  - http://bko.baibako.tv/
-  - http://rudub.tv/ # redirects to *.net
-  - http://rudub.co/
-  - https://rudub.net/
-  - https://rudub.pw/
-  - https://rudub.xyz/
   - https://rudub.online/
-  - https://02april.rudub.online/
-  - https://03april.rudub.online/
-  - https://04april.rudub.online/
-  - https://05april.rudub.online/
-  - https://06april.rudub.online/
-  - https://07april.rudub.online/
-  - https://08april.rudub.online/
-  - https://09april.rudub.online/
-  - https://10april.rudub.online/
-  - https://11april.rudub.online/
-  - https://12april.rudub.online/
-  - https://13april.rudub.online/
-  - https://14april.rudub.online/
-  - https://15april.rudub.online/
-  - https://16april.rudub.online/
-  - https://17april.rudub.online/
+  - https://03june.rudub.online/
+  - https://04june.rudub.online/
+  - https://05june.rudub.online/
+  - https://06june.rudub.online/
+  - https://07june.rudub.online/
+  - https://08june.rudub.online/
+  - https://09june.rudub.online/
+  - https://10june.rudub.online/
+  - https://11june.rudub.online/
+  - https://12june.rudub.online/
+  - https://13june.rudub.online/
+  - https://14june.rudub.online/
+  - https://15june.rudub.online/
+  - https://16june.rudub.online/
+  - https://17june.rudub.online/
+  - https://18june.rudub.online/
+  - https://19june.rudub.online/
+  - https://20june.rudub.online/
+  - https://21june.rudub.online/
+  - https://22june.rudub.online/
+  - https://23june.rudub.online/
+  - https://24june.rudub.online/
+  - https://25june.rudub.online/
+  - https://26june.rudub.online/
+  - https://27june.rudub.online/
+  - https://28june.rudub.online/
+  - https://29june.rudub.online/
+  - https://30june.rudub.online/
+  - https://01july.rudub.online/
 
 caps:
   categorymappings:

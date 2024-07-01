@@ -7,9 +7,8 @@ type: public
 encoding: UTF-8
 followredirect: true
 links:
-  - https://torrentwiz66.com/
+  - https://torrentwiz67.com/
 legacylinks:
-  - https://torrentwiz49.com/
   - https://torrentwiz50.com/
   - https://torrentwiz51.com/
   - https://torrentwiz52.com/
@@ -24,6 +23,7 @@ legacylinks:
   - https://torrentwiz62.com/
   - https://torrentwiz63.com/
   - https://torrentwiz64.com/
+  - https://torrentwiz66.com/
 
 caps:
   categorymappings:
@@ -42,10 +42,8 @@ caps:
     music-search: [q]
 
 settings:
-  - name: flaresolverr
-    type: info
-    label: FlareSolverr
-    default: This site may use Cloudflare DDoS Protection, therefore Jackett requires <a href="https://github.com/Jackett/Jackett#configuring-flaresolverr" target="_blank">FlareSolverr</a> to access it.
+  - name: info_flaresolverr
+    type: info_flaresolverr
 
 download:
   infohash:

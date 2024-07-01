@@ -7,11 +7,13 @@ type: public
 encoding: UTF-8
 links:
   # Send any content to 52btbtbt@gmail.com to get the latest address. or visit https://521.52btbt.cyou/
+  - https://www.529053.xyz/
+  - https://www.529055.xyz/
+legacylinks:
+  - https://529050.xyz/
   - https://529048.xyz/
   - https://529049.xyz/
   - https://www.529052.xyz/
-legacylinks:
-  - https://529050.xyz/
 
 caps:
   categorymappings:
@@ -53,14 +55,14 @@ settings:
       2: created
       1: size
       0: relevance
-  - name: flaresolverr
-    type: info
-    label: FlareSolverr
-    default: This site may use Cloudflare DDoS Protection, therefore Jackett requires <a href="https://github.com/Jackett/Jackett#configuring-flaresolverr" target="_blank">FlareSolverr</a> to access it.
+  - name: info_flaresolverr
+    type: info_flaresolverr
 
 search:
   paths:
     - path: "search-{{ if .Keywords }}{{ .Keywords }}{{ else }}{{ .Today.Year }}{{ end }}-{{ .Config.cat-id }}-{{ .Config.sort }}-1.html"
+  error:
+    - selector: :root:contains("Internal Server Error")
 
   rows:
     selector: div.ssbox

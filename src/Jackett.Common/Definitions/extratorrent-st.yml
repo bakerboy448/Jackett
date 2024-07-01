@@ -9,17 +9,12 @@ links:
   - https://extratorrent.st/
   - https://extratorrent.ninjaproxy1.com/
   - https://extratorrent.proxyninja.org/
+  - https://extratorrent.proxyninja.net/
 legacylinks:
-  - https://extratorrent.nocensor.art/
-  - https://extratorrent.unblockit.bio/
-  - https://extratorrent.unblockit.boo/
-  - https://extratorrent.mrunblock.guru/
-  - https://extratorrent.unblockit.click/
   - https://extratorrent.unblockit.asia/
   - https://extratorrent.unblockit.mov/
   - https://extratorrent.mrunblock.life/
   - https://extratorrent.unblockit.rsvp/
-  - https://extratorrent.nocensor.click/
   - https://extratorrent.unblockit.vegas/
   - https://extratorrent.unblockit.esq/
   - https://extratorrent.unblockit.zip/
@@ -31,6 +26,9 @@ legacylinks:
   - https://extratorrent.unblockit.dad/
   - https://extratorrent.unblockit.africa/
   - https://extratorrent.unblockit.casa/ # 502
+  - https://extratorrent.unblockit.sbs/ # 502
+  - https://extratorrent.unblockit.ong/ # 502
+  - https://extratorrent.unblockit.black/ # 502
 
 caps:
   categorymappings:
@@ -87,10 +85,8 @@ caps:
     book-search: [q]
 
 settings:
-  - name: flaresolverr
-    type: info
-    label: FlareSolverr
-    default: This site may use Cloudflare DDoS Protection, therefore Jackett requires <a href="https://github.com/Jackett/Jackett#configuring-flaresolverr" target="_blank">FlareSolverr</a> to access it.
+  - name: info_flaresolverr
+    type: info_flaresolverr
 
 search:
   paths:

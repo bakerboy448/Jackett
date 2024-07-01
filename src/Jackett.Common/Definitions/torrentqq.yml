@@ -7,23 +7,23 @@ type: public
 encoding: UTF-8
 followredirect: true
 links:
-  - https://torrentqq306.com/
+  - https://torrentqq322.com/
 legacylinks:
-  - https://torrentqq290.com/
-  - https://torrentqq291.com/
-  - https://torrentqq292.com/
-  - https://torrentqq293.com/
-  - https://torrentqq294.com/
-  - https://torrentqq295.com/
-  - https://torrentqq296.com/
-  - https://torrentqq297.com/
-  - https://torrentqq298.com/
-  - https://torrentqq299.com/
-  - https://torrentqq301.com/
-  - https://torrentqq302.com/
-  - https://torrentqq303.com/
-  - https://torrentqq304.com/
-  - https://torrentqq305.com/
+  - https://torrentqq307.com/
+  - https://torrentqq308.com/
+  - https://torrentqq309.com/
+  - https://torrentqq310.com/
+  - https://torrentqq311.com/
+  - https://torrentqq312.com/
+  - https://torrentqq313.com/
+  - https://torrentqq314.com/
+  - https://torrentqq315.com/
+  - https://torrentqq316.com/
+  - https://torrentqq317.com/
+  - https://torrentqq318.com/
+  - https://torrentqq319.com/
+  - https://torrentqq320.com/
+  - https://torrentqq321.com/
 
 caps:
   categorymappings:
@@ -44,10 +44,8 @@ caps:
     music-search: [q]
 
 settings:
-  - name: flaresolverr
-    type: info
-    label: FlareSolverr
-    default: This site may use Cloudflare DDoS Protection, therefore Jackett requires <a href="https://github.com/Jackett/Jackett#configuring-flaresolverr" target="_blank">FlareSolverr</a> to access it.
+  - name: info_flaresolverr
+    type: info_flaresolverr
 
 download:
   infohash:

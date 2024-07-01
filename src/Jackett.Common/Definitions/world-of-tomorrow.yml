@@ -83,11 +83,11 @@ settings:
     label: Pin
   - name: freeleech
     type: checkbox
-    label: Filter FreeLeech only
+    label: Search FreeLeech
     default: false
   - name: onlyupload
     type: checkbox
-    label: Filter OnlyUpload only
+    label: Search OnlyUpload
     default: false
   - name: info_free
     type: info
@@ -133,6 +133,7 @@ login:
 
 search:
   paths:
+    # https://w-o-t.pro/browse.php?showsearch=1&search=&incldead=0&orderby=added&sort=desc&onlyupload=yes&freeleech=yes
     - path: browse.php
   inputs:
     $raw: "{{ range .Categories }}c{{.}}=1&{{end}}"
@@ -142,9 +143,11 @@ search:
     incldead: 1
     orderby: "{{ .Config.sort }}"
     sort: "{{ .Config.type }}"
+    onlyupload: "{{ if .Config.onlyupload }}yes{{ else }}{{ end }}"
+    freeleech: "{{ if .Config.freeleech }}yes{{ else }}{{ end }}"
 
   rows:
-    selector: "table.tableinborder[border=\"0\"][cellspacing=\"1\"][cellpadding=\"4\"][style=\"width:100%\"] > tbody > tr:has(a[href^=\"download.php\"]):has(a[href^=\"browse.php?cat=\"]){{ if .Config.freeleech }}:has(img[src=\"pic/freeleech.gif\"]){{ else }}{{ end }}{{ if .Config.onlyupload }}:has(img[src=\"pic/oupic.gif\"]){{ else }}{{ end }}"
+    selector: "table.tableinborder[border=\"0\"][cellspacing=\"1\"][cellpadding=\"4\"][style=\"width:100%\"] > tbody > tr:has(a[href^=\"download.php\"]):has(a[href^=\"browse.php?cat=\"])"
 
   fields:
     category:
@@ -154,16 +157,16 @@ search:
         - name: querystring
           args: cat
     title:
-      selector: a[href^="details.php?id="] > b
+      selector: a[href^="torrent.php?id="] > b
     details:
-      selector: a[href^="details.php?id="]
+      selector: a[href^="torrent.php?id="]
       attribute: href
     download:
       selector: a[href^="download.php?torrent="]
       attribute: href
     poster:
-      selector: a[href^="details.php?id="]
-      attribute: onMouseOver
+      selector: a[href^="torrent.php?id="]
+      attribute: onmouseover
       filters:
         - name: regexp
           args: "src=(.+?) "
@@ -198,4 +201,4 @@ search:
     minimumseedtime:
       # 3 days (as seconds = 3 x 24 x 60 x 60)
       text: 259200
-# WoT Reworked v8.2.1
+# WoT Reworked v8.3.7

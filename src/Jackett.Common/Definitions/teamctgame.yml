@@ -1,5 +1,7 @@
 ---
 id: teamctgame
+replaces:
+  - casatorrent
 name: Team CT Game
 description: "Team CT Game (TCTG) is a FRENCH Private Torrent Tracker for MOVIES / TV / GENERAL"
 language: fr-FR
@@ -158,7 +160,6 @@ search:
     incldead: 0
     # 0 all, 1 normal, 2 free, 3 2x, 4 2xfree, 5 50%, 6 2x50%, 7 30%
     spstate: "{{ if .Config.freeleech }}2{{ else }}0{{ end }}"
-    inclbookmarked: 0
     # 0 title, 1 descr, 3 uploader, 4 imdburl
     search_area: "{{ if .Query.IMDBID }}4{{ else }}0{{ end }}"
     # 0 AND, 1 OR, 2 exact

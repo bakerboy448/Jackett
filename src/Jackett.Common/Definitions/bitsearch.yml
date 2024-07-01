@@ -9,13 +9,6 @@ requestDelay: 2
 links:
   - https://bitsearch.to/
 legacylinks:
-  - https://bitsearch.nocensor.biz/
-  - https://bitsearch.nocensor.sbs/
-  - https://bitsearch.nocensor.world/
-  - https://bitsearch.nocensor.lol/
-  - https://bitsearch.mrunblock.guru/
-  - https://bitsearch.mrunblock.life/
-  - https://bitsearch.nocensor.click/
   - https://bitsearch.nocensor.cloud/
   - https://bitsearch.mrunblock.bond/
 
@@ -77,7 +70,7 @@ settings:
     options:
       desc: desc
       asc: asc
-  - name: info_8000
+  - name: info_category_8000
     type: info
     label: About BitSearch Categories
     default: BitSearch does not properly return categories in its search results for some releases.</br>To add to your Apps' Torznab indexer, you will need to include the 8000(Other) category.

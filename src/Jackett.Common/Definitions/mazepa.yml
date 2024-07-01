@@ -50,6 +50,7 @@ caps:
     - {id: 47, cat: TV/Sport, desc: "Автоспорт Чемпіонат та кубок України"}
     - {id: 46, cat: TV/Sport, desc: "Автоспорт Єврокубки"}
     - {id: 48, cat: TV/Sport, desc: "Автоспорт Чемпіонат Світу"}
+    - {id: 182, cat: TV/Sport, desc: "Автоспорт Євро 2024"}
     - {id: 49, cat: TV/Sport, desc: "Автоспорт Чемпіонат Європи"}
     - {id: 53, cat: TV/Sport, desc: "Автоспорт Закордонні чемпіонати"}
     - {id: 19, cat: TV/Sport, desc: "Бокс"}
@@ -202,13 +203,13 @@ search:
 
   fields:
     category:
-      selector: a[href^="tracker.php?f="]
-      attribute: href
+      selector: a[onclick]
+      attribute: onclick
       filters:
-        - name: querystring
-          args: f
+        - name: regexp
+          args: f=(\d+)
     title:
-      selector: a[href^="./viewtopic.php?t="]
+      selector: a.genmed
       filters:
         # normalize to SXXEYY format
         # Ukrainian
@@ -290,10 +291,13 @@ search:
         - name: re_replace
           args: ["(?i)^\\(\\s*([SE]\\d+.*?)\\s*\\)[\\s\\/\\|]*(.+)", "$2 $1"]
     details:
-      selector: a[href^="./viewtopic.php?t="]
+      selector: a.genmed
       attribute: href
     download:
       selector: a[href^="./dl.php?id="]
+      attribute: href
+    magnet:
+      selector: a[href^="magnet:?xt="]
       attribute: href
     size:
       selector: a[href^="./dl.php?id="]
@@ -346,5 +350,8 @@ search:
     uploadvolumefactor:
       text: 1
     description:
-      selector: a[href^="./viewtopic.php?t="]
+      case:
+        span.tor-approved: Verified
+        span.tor-not-approved: Unverified
+        span.tor-dup: Temporary
 # TorrentPier

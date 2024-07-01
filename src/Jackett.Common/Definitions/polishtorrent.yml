@@ -19,20 +19,22 @@ caps:
     - {id: 16, cat: Movies/SD, desc: "Filmy SD"}
     - {id: 17, cat: Movies/Other, desc: "Filmy inne"}
     - {id: 15, cat: TV/Documentary, desc: "Dokumentalne"}
-    - {id: 5, cat: PC/Games, desc: "Gry pc"}
     - {id: 24, cat: PC/Games, desc: "Gry dodatki"}
-    - {id: 18, cat: PC/Mobile-Android, desc: "Mobile"}
+    - {id: 5, cat: PC/Games, desc: "Gry pc"}
     - {id: 10, cat: Console, desc: "Gry Konsole"}
+    - {id: 18, cat: PC/Mobile-Android, desc: "Mobile"}
     - {id: 19, cat: Other, desc: "Inne"}
     - {id: 8, cat: Audio, desc: "Muzyka"}
     - {id: 11, cat: Movies, desc: "Paczki"}
-    - {id: 20, cat: Books, desc: "Book"}
     - {id: 25, cat: Audio/Audiobook, desc: "Audiobook"}
+    - {id: 20, cat: Books, desc: "Book"}
+    - {id: 27, cat: TV/Other, desc: "Teatr Telewizyjny"}
     - {id: 21, cat: TV/Sport, desc: "Sport"}
     - {id: 9, cat: TV/HD, desc: "Seriale HD"}
     - {id: 22, cat: TV/SD, desc: "Seriale SD"}
     - {id: 23, cat: Movies/UHD, desc: "Filmy 4K"}
     - {id: 2, cat: TV/UHD, desc: "TV 4K"}
+    - {id: 28, cat: TV/Documentary, desc: "TV Dokument"}
     - {id: 7, cat: XXX, desc: "XXX 18+"}
 
   modes:
@@ -132,6 +134,22 @@ search:
       selector: category_id
     title_optional:
       selector: name
+    title_filename:
+      selector: "files[0].name"
+      optional: true
+    files:
+      selector: num_file
+    title_phase1:
+      text: "{{ if and (.Config.single_file_release_use_filename) (eq .Result.files \"1\") (.Result.title_filename) }}{{ .Result.title_filename }}{{ else }}{{ .Result.title_optional }}{{ end }}"
+    title_multilang:
+      text: "{{ .Result.title_phase1 }}"
+      filters:
+        - name: re_replace
+          args: ["(?i)\\b(MULTI(?!.*(?:POLISH|ENGLISH|\\bPL\\b)))\\b", "{{ .Config.multilanguage }}"]
+        - name: re_replace
+          args: ["(?i)\\b(pl)\\b", "POLISH"]
+    title:
+      text: "{{ if .Config.multilang }}{{ .Result.title_multilang }}{{ else }}{{ .Result.title_phase1 }}{{ end }}"
     details:
       selector: details_link
     download:
@@ -160,8 +178,6 @@ search:
           args: [" & ", "_&_"]
     description:
       text: "{{ .Result.genre }}"
-    files:
-      selector: num_file
     seeders:
       selector: seeders
     leechers:
@@ -197,18 +213,4 @@ search:
     minimumseedtime:
       # 7 day (as seconds = 7 x 24 x 60 x 60)
       text: 604800
-    title_filename:
-      selector: "files[0].name"
-      optional: true
-    title_phase1:
-      text: "{{ if and (.Config.single_file_release_use_filename) (eq .Result.files \"1\") (.Result.title_filename) }}{{ .Result.title_filename }}{{ else }}{{ .Result.title_optional }}{{ end }}"
-    title_multilang:
-      text: "{{ .Result.title_phase1 }}"
-      filters:
-        - name: re_replace
-          args: ["(?i)\\b(MULTI(?!.*(?:POLISH|ENGLISH|\\bPL\\b)))\\b", "{{ .Config.multilanguage }}"]
-        - name: re_replace
-          args: ["(?i)\\b(pl)\\b", "POLISH"]
-    title:
-      text: "{{ if .Config.multilang }}{{ .Result.title_multilang }}{{ else }}{{ .Result.title_phase1 }}{{ end }}"
 # json UNIT3D 8.0.1 (custom)

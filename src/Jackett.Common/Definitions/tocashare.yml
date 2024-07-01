@@ -7,7 +7,6 @@ type: private
 encoding: UTF-8
 links:
   - https://tocashare.com/
-legacylinks:
   - https://tocashare.biz/
 
 caps:
@@ -43,10 +42,6 @@ settings:
     type: checkbox
     label: Search freeleech only
     default: false
-  - name: single_file_release_use_filename
-    type: checkbox
-    label: Use filename as title for single file releases
-    default: true
   - name: sort
     type: select
     label: Sort requested from site
@@ -99,7 +94,7 @@ search:
     "free[]": "{{ if .Config.freeleech }}100{{ else }}{{ end }}"
     sortField: "{{ .Config.sort }}"
     sortDirection: "{{ .Config.type }}"
-    perPage: 75
+    perPage: 100
 
   keywordsfilters:
     - name: re_replace
@@ -112,8 +107,10 @@ search:
   fields:
     category:
       selector: category_id
-    title_optional:
+    title:
       selector: name
+    files:
+      selector: num_file
     details:
       selector: details_link
     download:
@@ -135,6 +132,8 @@ search:
       selector: meta.genres
       filters:
         - name: re_replace
+          args: ["(?i)^None$", ""]
+        - name: re_replace
           args: ["(?i)(Cinema TV)", "Cinema_TV"]
         - name: re_replace
           args: ["(?i)(Ficção científica)", "Ficção_científica"]
@@ -142,8 +141,6 @@ search:
           args: [" & ", "_&_"]
     description:
       text: "{{ .Result.genre }}"
-    files:
-      selector: num_file
     seeders:
       selector: seeders
     leechers:
@@ -182,9 +179,4 @@ search:
     minimumseedtime:
       # 5 days (as seconds = 5 x 24 x 60 x 60)
       text: 432000
-    title_filename:
-      selector: "files[0].name"
-      optional: true
-    title:
-      text: "{{ if and (.Config.single_file_release_use_filename) (eq .Result.files \"1\") (.Result.title_filename) }}{{ .Result.title_filename }}{{ else }}{{ .Result.title_optional }}{{ end }}"
-# json UNIT3D 8.0.2
+# json UNIT3D 7.2.0
